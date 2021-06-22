@@ -19,6 +19,11 @@
   calculator.div(3, 2) // Retorno: 1;
 */
 
-const calculator = {};
-
+const calculator = {
+  add: (x, y) => (x + y),
+  mult: (x, y) => (x * y),
+  div: (x, y) => Math.trunc(x / y),
+  sub: (x, y) => (x - y),
+};
+// https://www.w3schools.com/jsref/jsref_trunc.asp  Math.trunc Retorna a parte inteira de um número
 module.exports = calculator;
