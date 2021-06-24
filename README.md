@@ -218,7 +218,7 @@ A função average recebe um array (tamanho variável) e retorna a média dos va
 
   **O que será avaliado**
 
-  * Será validado se o teste da função `numbers` verifica se o retorno da função é um array e se o array retornado contém somente números.
+  * Será validado se o teste da função `numbers` verifica se o retorno da função é `true` quando o array passado por parâmetro contém somente números.
 
 ### 3 - Implemente a função `vqv`
 

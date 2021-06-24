@@ -17,8 +17,13 @@ const numbers = require('../src/numbers');
 */
 
 describe('2 - Implemente os casos de teste para a função `numbers`', () => {
+<<<<<<< HEAD
   it('Verifica se a função `numbers`retorna um array e se o array retornado contém somente números', () => {
     assert.strictEqual(numbers([1, 2, 3, 4, 5]), true);
+=======
+  it('Verifica se a função `numbers`retorna `true` quando o array contém apenas numeros e falso caso contrário', () => {
+    assert.fail();
+>>>>>>> 49272e38a6149bc7cc5b623b2385a558133b84bf
     // Escreva um teste em que a função recebe [1, 2, 3, 4, 5] e retorna true
     assert.strictEqual(numbers([1, 2, '3', 4, 5]), false);
     // Escreva um teste em que a função recebe [1, 2, '3', 4, 5] e retorna false
